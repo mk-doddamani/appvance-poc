@@ -5,7 +5,7 @@
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8a0172de-39fd-4771-b570-c10b1c9f26ee' uiType='base'>
       <dialect type='sahi'>
-        <accessor type='filePath' value='"{ds}/ReusableComponents/LoginUtility.ds"' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='"{ds}/ReusableComponents/LoginUtility.ds"' selected='true' fallback='true'></accessor>
         <accessor type='unknown' value='"{ds}/LoginUtility.ds"' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
