@@ -9,7 +9,7 @@
         <accessor type='unknown' value='"{ds}/LoginUtility.ds"' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='assertContainsText' value='Home' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='79656916-2c16-4658-9eb1-cd4350a4db13' uiType='base'>
+    <step action='assertContainsText' value='"Home"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='79656916-2c16-4658-9eb1-cd4350a4db13' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Text' value='link("Home")' selected='true' fallback='true'></accessor>
         <accessor type='AttrHref' value='link("/hospital/[2]")' selected='false' fallback='true'></accessor>
