@@ -1,0 +1,23 @@
+﻿ReportListName
+Full List
+Compliance Report
+People in compliance (have visited)
+People out of compliance (have visited)
+People in compliance (have not visited and have visited)
+People out of compliance (have not visited and have visited)
+People that have not registered as per our request
+Unable to evaluate People that were imported or added to the 'Add New Vendor' formSyntaxError: Unnamed:1:64 Expected ; but found Add(function(){ return 'People that were imported or added to the 'Add New Vendor' form'; })();                                                                ^
+People that have signed into your hospital
+People that did not sign out
+People that choose your hospital as part of their territory
+People that choose your hospital as the hospital to request registration
+Unable to evaluate Auto Terminal rejected sign in'sSyntaxError: Unnamed:1:61 Missing close quote(function(){ return 'Auto Terminal rejected sign in's'; })();                                                             ^
+People that have a Does not Meet Criteria criminal or sex offender background check
+People that are on a government debarment list
+People that refused to sign one or more policies
+Recall Notice Log
+Auto Sign Out People
+Appointment History
+Appointment Admin Report
+Monthly Vendor Exclusion list
+People who have checked in to a specific department
