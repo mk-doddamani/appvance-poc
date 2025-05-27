@@ -8,4 +8,61 @@
         <accessor type='filePath' value='"{ds}/ReusableComponents/LoginUtility.ds"' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d6411bd5-0fb2-4b32-912b-9f935e198a53' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Src' value='image("https://staging.vcsdatabase.com/images/alloy/reports.png").xy(0.39, 0.68 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/main/div/section/main/div/a[4]/figure/img").xy(0.39, 0.68 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/section/main/div/a[4]/figure/img&apos;).xy(0.39, 0.68 )' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/main[1]/div[@class=&apos;container&apos;]/section[1]/main[1]/div[@class=&apos;alloy_panel&apos;]/a[4]/figure[1]/img[1]").xy(0.39, 0.68 )' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='image({&apos;src&apos;:&apos;/images/alloy/reports.png&apos;}).xy(0.39, 0.68 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e49e6c7f-d460-49bd-919d-2cdf574a4156' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Text' value='heading5("Vendor Reports")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/main/div/div/div/a[1]/h5")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Vendor Reports"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/div/div/a/h5&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/main[1]/div[@class=&apos;container&apos;]/div[@class=&apos;container&apos;]/div[@class=&apos;alloy_panel_small&apos;]/a[1]/h5[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='df5f6a2d-49dd-446a-bfb8-c02a0fa38f75' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='custom("main", 0, _in(div("wrapper")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='custom("main", 0, _in(div({&apos;id&apos;:&apos;wrapper&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/main")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/main[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='"CTRL"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5ec69769-a9a2-42d3-8f90-6d2af42232f2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='cell(1, _in(div("wrapper")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='cell(1, _in(div({&apos;id&apos;:&apos;wrapper&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='cell("Reports")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/main/div/section/table/tbody/tr/td/table/tbody/tr[1]/td")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/section/table/tbody/tr/td/table/tbody/tr/td&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/main[1]/div[@class=&apos;container&apos;]/section[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5c5b228d-aa2c-4340-b75e-3d406f866efb' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='cell(1, _in(div("wrapper")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='cell(1, _in(div("wrapper")))' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='cell(1, _in(div({&apos;id&apos;:&apos;wrapper&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='cell("Reports")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/main/div/section/table/tbody/tr/td/table/tbody/tr[1]/td")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/section/table/tbody/tr/td/table/tbody/tr/td&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/main[1]/div[@class=&apos;container&apos;]/section[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='store' value='cell(1, _in(div("wrapper")))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='526e1bd3-2327-4a7d-8033-0e04c067907b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='vendoreportlist' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='vendorlist' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='verifyTextPresent' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='881f50ea-0a17-415c-bd74-e0c7ed7418f4' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
   </testcase>
