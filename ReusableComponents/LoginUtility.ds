@@ -14,7 +14,7 @@
     <step action='log' value='LoginName' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='48286c35-cbdd-488e-a2fc-7082cf5d3b22' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
-    <step action='setValue' value='LoginName' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='0639e5ee-0f69-4481-b39b-1a1b1b6848f1' uiType='base'>
+    <step action='setValue' value='LoginName' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0639e5ee-0f69-4481-b39b-1a1b1b6848f1' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='textbox(0, _in(custom("sympl-text-field", "name")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='textbox(0, _in(custom("sympl-text-field", {&apos;id&apos;:&apos;name&apos;})))' selected='false' fallback='true'></accessor>
@@ -30,7 +30,7 @@
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/form/sympl-text-field/sympl-input/div/input&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Midas123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='007facb8-1642-4733-ae48-8d4d2b757c41' uiType='base' isHidden='true'>
+    <step action='setValue' value='"Midas123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='007facb8-1642-4733-ae48-8d4d2b757c41' uiType='base' isHidden='true'>
       <dialect type='sahi'>
         <accessor type='Parent' value='password(0, _in(custom("sympl-password-field", "password")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='password(0, _in(custom("sympl-password-field", {&apos;id&apos;:&apos;password&apos;})))' selected='false' fallback='true'></accessor>
