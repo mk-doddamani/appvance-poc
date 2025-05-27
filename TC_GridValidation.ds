@@ -76,13 +76,13 @@
         <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/main[1]/div[@class=&apos;container&apos;]/section[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]")' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='getText' value='"listValue"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ecd7ff7e-cdeb-4aac-b250-cc73b1b05f05' uiType='base'>
+    <step action='getText' value='listValue' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ecd7ff7e-cdeb-4aac-b250-cc73b1b05f05' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value=' byXPath(&apos;/html/body/div[2]/main/div/section/table/tbody/tr/td/table/tbody/tr/td&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='unknown' value='list' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='log' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='9c83ce6b-109d-4778-9ad8-ab21c3bcdbbc' uiType='base'>
+    <step action='log' value='listValue' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='9c83ce6b-109d-4778-9ad8-ab21c3bcdbbc' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
     <step action='readCSV' value='csvTestdata' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='228da440-ed94-4fcd-a5d5-04b569ff6e85' uiType='base'>
@@ -90,7 +90,7 @@
         <accessor type='filePath' value='"{ds}/reportList.csv"' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='log' value='csvTestdata' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='515dd1e0-ebd6-44fc-b4eb-ca0f9f623208' uiType='base'>
+    <step action='log' value='csvTestdata' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='515dd1e0-ebd6-44fc-b4eb-ca0f9f623208' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
   </testcase>
