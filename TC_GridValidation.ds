@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
   <testcase name='' description='script generated from Web Designer' author='Mahendra_Doddamani_SYMPLR@appvance.com' version='webDesigner'>
-    <dpl filename='{ds}/reportList.csv' exectype='runnextstep' errorhandling='' type='SyntheticDPL' locale='en_US'></dpl>
+    <dpl filename='' exectype='runnextstep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c93072b6-eb09-4f3f-987f-e0f772a103fb' uiType='base'>
@@ -62,9 +62,15 @@
         <accessor type='unknown' value='vendorlist' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='readCSV' value='csvTestdata' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c0a8bd25-5783-447f-baf5-043926532185' uiType='base'>
+    <step action='log' value='vendoreportlist' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='9c83ce6b-109d-4778-9ad8-ab21c3bcdbbc' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='readCSV' value='csvTestdata' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='228da440-ed94-4fcd-a5d5-04b569ff6e85' uiType='base'>
       <dialect type='sahi'>
         <accessor type='filePath' value='"{ds}/reportList.csv"' selected='true' fallback='true'></accessor>
       </dialect>
+    </step>
+    <step action='log' value='csvTestdata' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='515dd1e0-ebd6-44fc-b4eb-ca0f9f623208' uiType='base'>
+      <dialect type='sahi'></dialect>
     </step>
   </testcase>
