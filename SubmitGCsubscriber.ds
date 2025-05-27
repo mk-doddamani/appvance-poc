@@ -9,7 +9,18 @@
         <accessor type='unknown' value='"{ds}/LoginUtility.ds"' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c4a02601-4d85-461a-92bf-2f6fff545b6e' uiType='base'>
+    <step action='assertContainsText' value='Home' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='79656916-2c16-4658-9eb1-cd4350a4db13' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Text' value='link("Home")' selected='true' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/hospital/[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Home")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/header/div[3]/div/ul/li/a")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Home"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/header/div[3]/div/ul/li/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/header[@class=&apos;alloy_header&apos;]/div[@class=&apos;container&apos;]/div[@class=&apos;breadcrumbs_header&apos;]/ul[@class=&apos;breadcrumbs&apos;]/li[1]/a[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='c4a02601-4d85-461a-92bf-2f6fff545b6e' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='header(0, _in(div("wrapper")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='header(0, _in(div({&apos;id&apos;:&apos;wrapper&apos;})))' selected='false' fallback='true'></accessor>
@@ -22,12 +33,22 @@
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/header&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='77eb4572-cda0-4fba-b614-153c76d749e5' uiType='base'>
+    <step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='421a86e5-2062-4a1f-95b9-cb47ba896691' uiType='base'>
       <dialect type='sahi'>
-        <accessor type='Src' value='image("https://staging.vcsdatabase.com/images/alloy/add_subscriber.png").xy(0.52, 0.77)' selected='true' fallback='true'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/main[1]/div[@class=&apos;container&apos;]/section[1]/main[1]/div[@class=&apos;alloy_panel&apos;]/a[2]/figure[1]/img[1]").xy(0.52, 0.77)' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/main/div/section/main/div/a[2]/figure/img").xy(0.52, 0.77)' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/section/main/div/a[2]/figure/img&apos;).xy(0.52, 0.77)' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='div("HomeAdd Subscriber")' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='div("container[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='div("HomeAdd Subscriber")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/header/div[3]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/header/div[3]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='502dd15e-60af-4113-baeb-1420d880490d' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Src' value='image("https://staging.vcsdatabase.com/images/alloy/add_subscriber.png").xy(0.73, 0.71 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;wrapper&apos;]/main/div/section/main/div/a[2]/figure/img").xy(0.73, 0.71 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/section/main/div/a[2]/figure/img&apos;).xy(0.73, 0.71 )' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/main[1]/div[@class=&apos;container&apos;]/section[1]/main[1]/div[@class=&apos;alloy_panel&apos;]/a[2]/figure[1]/img[1]").xy(0.73, 0.71 )' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='image({&apos;src&apos;:&apos;/images/alloy/add_subscriber.png&apos;}).xy(0.73, 0.71 )' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='59b82c29-8430-44ba-87f4-08c04d6ee3a4' uiType='base'>
@@ -46,21 +67,20 @@
         <accessor type='Parent' value='link(1, _in(div({&apos;id&apos;:&apos;tabs_top&apos;})))' selected='false' fallback='true'></accessor>
         <accessor type='Id' value='link("f_custom")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;#f_custom&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='link("midlink_tab_link")' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;f_custom&apos;)")' selected='false' fallback='true'></accessor>
         <accessor type='Text' value='link("General Credentialing")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[class="midlink_tab_link"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='Attribute' value='link({&apos;id&apos;:&apos;f_custom&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="f_custom"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//a[@id=&apos;f_custom&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="midlink_tab_link"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPathText' value='byXPath(&apos;//*[text()="General Credentialing"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[1]//div//div//div//a[@id="f_custom"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[1]//div//div//div//a[@class="midlink_tab_link"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[1]//div//div//div//a[text()="General Credentialing"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div/a[2]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AttrHref' value='link("javascript: void(0);[1]")' selected='false' fallback='true'></accessor>
-        <accessor type='AttrClass' value='link("midlink_tab_link")' selected='false' fallback='false'></accessor>
-        <accessor type='AttrClass' value='link("midlink_tab_link[1]")' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;a[class="midlink_tab_link"]&apos;)' selected='false' fallback='false'></accessor>
-        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="midlink_tab_link"]&apos;)' selected='false' fallback='false'></accessor>
-        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[1]//div//div//div//a[@class="midlink_tab_link"]&apos;)' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
   </testcase>
