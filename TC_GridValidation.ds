@@ -79,8 +79,8 @@
     <step action='getText' value='listValue' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ecd7ff7e-cdeb-4aac-b250-cc73b1b05f05' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value=' byXPath(&apos;id("wrapper")/main[1]/div[1]/section[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[3]/td[1]/table[1])&apos;)' selected='true' fallback='true'></accessor>
-        <accessor type='unknown' value=' byXPath(&apos;/html/body/div[2]/main/div/section/table/tbody/tr/td/table/tbody/tr/td&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='unknown' value='list' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value=' byXPath(&apos;/html/body/div[2]/main/div/section/table/tbody/tr/td/table/tbody/tr/td&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='log' value='listValue' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='9c83ce6b-109d-4778-9ad8-ab21c3bcdbbc' uiType='base'>
