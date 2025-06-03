@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-  <testcase name='' description='script generated from Web Designer' author='Mahendra_Doddamani_SYMPLR@appvance.com' version='webDesigner'>
+  <testcase name='' description='script generated from Web Designer' author='Mahendra_Doddamani_SYMPLR@appvance.ai' version='webDesigner'>
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
@@ -20,7 +20,7 @@
         <accessor type='RelativeXPath' value='byXPath("id(&apos;wrapper&apos;)/header[@class=&apos;alloy_header&apos;]/div[@class=&apos;container&apos;]/div[@class=&apos;breadcrumbs_header&apos;]/ul[@class=&apos;breadcrumbs&apos;]/li[1]/a[1]")' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='true' indentLevel='0' isVisible='true' parentId='' uid='c4a02601-4d85-461a-92bf-2f6fff545b6e' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c4a02601-4d85-461a-92bf-2f6fff545b6e' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='header(0, _in(div("wrapper")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='header(0, _in(div({&apos;id&apos;:&apos;wrapper&apos;})))' selected='false' fallback='true'></accessor>
@@ -81,6 +81,177 @@
         <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[1]//div//div//div//a[text()="General Credentialing"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div/a[2]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AttrHref' value='link("javascript: void(0);[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"Appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='256e03d4-416e-4035-9868-532dd0bd64e2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="gc_vendor_fname"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("txt_field_form vendor-fname")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="vendor_fname[]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("gc_vendor_fname")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("vendor_fname[]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;gc_vendor_fname&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="txt_field_form vendor-fname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div[3]/form[2]/table/tbody/tr[3]/td/div/table/tbody/tr/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;gc_vendor_fname&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@id="gc_vendor_fname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@class="txt_field_form vendor-fname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@name="vendor_fname[]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[class="txt_field_form vendor-fname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#gc_vendor_fname&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="vendor_fname[]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"PoC"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0c72944b-5dfd-4b7d-8274-2ed93d889804' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="gc_vendor_lname"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("txt_field_form vendor-lname")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="vendor_lname[]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("gc_vendor_lname")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("vendor_lname[]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;gc_vendor_lname&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="txt_field_form vendor-lname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div[3]/form[2]/table/tbody/tr[3]/td/div/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;gc_vendor_lname&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@id="gc_vendor_lname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@class="txt_field_form vendor-lname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@name="vendor_lname[]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[class="txt_field_form vendor-lname"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#gc_vendor_lname&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="vendor_lname[]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"appvancepov_2@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4f6128d7-d786-4426-b73a-fe326b29a88a' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="gc_vendor_email"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("txt_field_form vendor-email")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="vendor_email[]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("gc_vendor_email")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("vendor_email[]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;gc_vendor_email&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="txt_field_form vendor-email"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div[3]/form[2]/table/tbody/tr[3]/td/div/table/tbody/tr[3]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;gc_vendor_email&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[3]//td[2]//input[@id="gc_vendor_email"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[3]//td[2]//input[@class="txt_field_form vendor-email"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[3]//td[2]//input[@name="vendor_email[]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;onchange&apos;:&apos;validEmail(this.value,this)&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[class="txt_field_form vendor-email"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#gc_vendor_email&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="vendor_email[]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ee8fea17-584c-4720-834b-71e6c4a20271' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='link("ui-state-default ui-state-hover")' selected='true' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("#[15]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("12")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;ui-datepicker-div&apos;]/table/tbody/tr[2]/td[6]/a")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="ui-state-default ui-state-hover"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="12"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[7]/table/tbody/tr[2]/td[6]/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;ui-datepicker-div&apos;)/table[@class=&apos;ui-datepicker-calendar&apos;]/tbody[1]/tr[2]/td[@class=&apos; &apos;]/a[@class=&apos;ui-state-default ui-state-hover&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[6]//a[@class="ui-state-default ui-state-hover"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[6]//a[text()="12"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;td[class=" "] &gt; a[class="ui-state-default ui-state-hover"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='cdfddae3-6692-496b-8a2a-7e999b609e97' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="vendor_expiry1"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='Id' value='span("vendor_expiry1")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//span[@id=&apos;vendor_expiry1&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div[3]/form[2]/table/tbody/tr[3]/td/div/table/tbody/tr[5]/td[2]/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;vendor_expiry1&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[5]//td[2]//span[@id="vendor_expiry1"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#vendor_expiry1&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='58875263-a7cd-4aed-9938-3b53221381c0' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="12"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='link("ui-state-active ui-state-default ui-state-hover")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("#[15]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("12")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;ui-datepicker-div&apos;]/table/tbody/tr[2]/td[6]/a")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="ui-state-default ui-state-active ui-state-hover"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[7]/table/tbody/tr[2]/td[6]/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;ui-datepicker-div&apos;)/table[@class=&apos;ui-datepicker-calendar&apos;]/tbody[1]/tr[2]/td[@class=&apos;  ui-datepicker-current-day&apos;]/a[@class=&apos;ui-state-default ui-state-active ui-state-hover&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[6]//a[@class="ui-state-default ui-state-active ui-state-hover"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[6]//a[text()="12"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;td[class="  ui-datepicker-current-day"] &gt; a[class="ui-state-default ui-state-active ui-state-hover"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.ui-datepicker-current-day &gt; .ui-state-default.ui-state-active.ui-state-hover&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setSelected' value='"DirectCode"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='465dd9a6-9722-4ae0-a057-22343af5d3be' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="vendorLevel"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='select("txt_field_form vendor-vendor-register-type")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="vendor_vendor_register_type[]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='select("vendorLevel")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='select("vendor_vendor_register_type[]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//select[@id=&apos;vendorLevel&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="txt_field_form vendor-vendor-register-type"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div[3]/form[2]/table/tbody/tr[3]/td/div/table/tbody/tr[6]/td[2]/select&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;vendorLevel&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[6]//td[2]//select[@id="vendorLevel"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[6]//td[2]//select[@class="txt_field_form vendor-vendor-register-type"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[6]//td[2]//select[@name="vendor_vendor_register_type[]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='select({&apos;onkeyup&apos;:&apos;removeError(this)&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;select[class="txt_field_form vendor-vendor-register-type"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#vendorLevel&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;select[name="vendor_vendor_register_type[]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='626a0386-abbc-4acb-aa9a-e2c49e2765f0' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(0, _in(table("displayField")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(0, _in(table({&apos;id&apos;:&apos;displayField&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="custom_field_402"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("custom_field_class txt_field_form")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="custom_field_1[402]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("custom_field_402")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;custom_field_402&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="custom_field_class txt_field_form"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div[3]/form[2]/table/tbody/tr[3]/td/div/table/tbody/tr[7]/td/table/tbody/tr/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;custom_field_402&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@id="custom_field_402"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@class="custom_field_class txt_field_form"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@name="custom_field_1[402]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;width&apos;:&apos;75%&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[class="custom_field_class txt_field_form"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#custom_field_402&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="custom_field_1[402]"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5242130f-d91b-4290-b1ee-4bc4af59b230' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="custom_invite"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("btn btn-default gc-btn-submit")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="custom_invite"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("custom_invite")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("custom_invite")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Invite")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='submit("Submit")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//button[@id=&apos;custom_invite&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="btn btn-default gc-btn-submit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Submit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/main/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div[3]/form[2]/table/tbody/tr[3]/td/table/tbody/tr/td[2]/button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;custom_invite&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//button[@id="custom_invite"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//button[@class="btn btn-default gc-btn-submit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//button[@name="custom_invite"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//button[text()="Submit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;button[class="btn btn-default gc-btn-submit"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#custom_invite&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;button[name="custom_invite"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='navigateTo' value='"https://staging.vcsdatabase.com/hospital_administrators/custom_level_reps.php"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='83e6b18d-9831-4678-863a-1c1befb0cc53' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
       </dialect>
     </step>
   </testcase>
