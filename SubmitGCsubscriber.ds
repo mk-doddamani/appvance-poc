@@ -83,7 +83,7 @@
         <accessor type='AttrHref' value='link("javascript: void(0);[1]")' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='256e03d4-416e-4035-9868-532dd0bd64e2' uiType='base'>
+    <step action='setValue' value='"Appvance_1"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='256e03d4-416e-4035-9868-532dd0bd64e2' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="gc_vendor_fname"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='textbox("txt_field_form vendor-fname")' selected='false' fallback='true'></accessor>
