@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-  <testcase name='' description='script generated from Web Designer' author='Mahendra_Doddamani_SYMPLR@appvance.ai' version='webDesigner'>
+  <testcase name='' description='script generated from Web Designer' author='Mahendra_Doddamani_SYMPLR@appvance.com' version='webDesigner'>
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://staging.vcsdatabase.com/login"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='aa930c87-c98a-4f0b-a3dc-5368fdb0ba95' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
-    <step action='store' value='"PRIYANK2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5158df67-e794-443f-aa25-8547a71db79d' uiType='base'>
+    <step action='store' value='"jagyanseni.222@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5158df67-e794-443f-aa25-8547a71db79d' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='LoginName' selected='true' fallback='true'></accessor>
       </dialect>
@@ -36,7 +36,7 @@
         <accessor type='unknown' value='but' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Midas@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='007facb8-1642-4733-ae48-8d4d2b757c41' uiType='base' isHidden='true'>
+    <step action='setValue' value='Midas@123' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='007facb8-1642-4733-ae48-8d4d2b757c41' uiType='base' isHidden='true'>
       <dialect type='sahi'>
         <accessor type='Parent' value='password(0, _in(custom("sympl-password-field", "password")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='password(0, _in(custom("sympl-password-field", {&apos;id&apos;:&apos;password&apos;})))' selected='false' fallback='true'></accessor>
